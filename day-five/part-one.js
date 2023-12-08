@@ -1,7 +1,7 @@
 const fs = require('node:fs');
 
 try {
-  const data = fs.readFileSync('./input-five.txt', 'utf8');
+  const data = fs.readFileSync('./input.txt', 'utf8');
 
   const seeds = data.split("\n")[0].split(": ")[1].split(" ");
   const destinationSourceMapping = data.split("\n\n");

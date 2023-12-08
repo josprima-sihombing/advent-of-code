@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const numbers = "one,two,three,four,five,six,seven,eight,nine".split(",");
 
 try {
-  const data = fs.readFileSync('./input-one.txt', 'utf8');
+  const data = fs.readFileSync('./input.txt', 'utf8');
   const rows = data.split("\n");
   let total = 0;
 

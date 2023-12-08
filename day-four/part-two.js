@@ -26,7 +26,7 @@ function getTotalScratchCards(rows) {
 }
 
 try {
-  const data = fs.readFileSync('./input-four.txt', 'utf8');
+  const data = fs.readFileSync('./input.txt', 'utf8');
   const rows = data.split("\n");
 
   const totalScratchCards = getTotalScratchCards(rows);

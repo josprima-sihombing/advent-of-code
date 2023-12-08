@@ -17,7 +17,7 @@ function isValid(rows, rowIndex, i, num) {
 }
 
 try {
-  const data = fs.readFileSync('./input-three.txt', 'utf8');
+  const data = fs.readFileSync('./input.txt', 'utf8');
   const rows = data.split("\n");
   const nums = [];
 
