@@ -1,7 +1,7 @@
 const fs = require('node:fs');
 
 try {
-  const data = fs.readFileSync('./input-eight.txt', 'utf8');
+  const data = fs.readFileSync('./input.txt', 'utf8');
 
   const dataMap = {};
 
